@@ -1,15 +1,11 @@
-/* =========================
-   RESET BÁSICO
-   ========================= */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* =========================
-   ESTILO GENERAL
-   ========================= */
+/* estilo general */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f5f6;
@@ -26,9 +22,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* =========================
-   HEADER Y MENÚ
-   ========================= */
+/* header y menu */
 header {
     background-color: #1b5e20;
     color: white;
@@ -61,18 +55,14 @@ nav ul li a:hover {
     background-color: #2e7d32;
 }
 
-/* =========================
-   CONTENIDO PRINCIPAL
-   ========================= */
+/* contenido principal*/
 main {
     width: 90%;
     max-width: 1200px;
     margin: 30px auto;
 }
 
-/* =========================
-   SECCIONES
-   ========================= */
+/* seccion */
 section {
     background-color: #e8f5e9;
     padding: 25px;
@@ -81,9 +71,7 @@ section {
     box-shadow: 0 3px 6px rgba(0,0,0,0.1);
 }
 
-/* =========================
-   TÍTULOS
-   ========================= */
+/* titulo*/
 h2 {
     color: #1b5e20;
     margin-bottom: 15px;
@@ -94,9 +82,7 @@ h3 {
     margin-bottom: 10px;
 }
 
-/* =========================
-   IMÁGENES
-   ========================= */
+/*imagenes*/
 img {
     max-width: 100%;
     border-radius: 8px;
@@ -128,9 +114,7 @@ img {
     margin: 10px;
 }
 
-/* =========================
-   TARJETAS (NOTICIAS)
-   ========================= */
+/*tarjetas*/
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -150,9 +134,7 @@ img {
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-/* =========================
-   LISTAS
-   ========================= */
+/*listas*/
 ul, ol {
     margin-left: 25px;
     margin-bottom: 15px;
@@ -170,9 +152,7 @@ dd {
     margin-left: 20px;
 }
 
-/* =========================
-   TABLAS
-   ========================= */
+/*tablas */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -194,9 +174,7 @@ tr:nth-child(even) {
     background-color: #dcedc8;
 }
 
-/* =========================
-   GALERÍA
-   ========================= */
+/*galeria*/
 .galeria {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -232,9 +210,7 @@ blockquote {
     font-style: italic;
 }
 
-/* =========================
-   FORMULARIO
-   ========================= */
+/* formulario*/
 form {
     background-color: #f9f9f9;
     padding: 20px;
@@ -276,9 +252,7 @@ input[type="submit"]:hover {
     background-color: #2e7d32;
 }
 
-/* =========================
-   FOOTER
-   ========================= */
+/*footer*/
 footer {
     background-color: #1b5e20;
     color: white;
@@ -288,22 +262,8 @@ footer {
     font-size: 0.9em;
 }
 
-/* =========================
-   RESPONSIVE
-   ========================= */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-    .img2 {
-        max-width: 45%;
-    }
-}
 
-/* =========================
-   TARJETAS INTERACTIVAS PARA CONSEJOS
-   ========================= */
+/* consejos */
 .consejos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -336,9 +296,7 @@ footer {
 }
 
 
-/* =========================
-   IMÁGENES INTERACTIVAS GALERÍA DE MEDIDAS
-   ========================= */
+/* imagenes*/
 .medida-img {
     border-radius: 10px;
     transition: transform 0.4s, box-shadow 0.4s;
@@ -352,9 +310,7 @@ footer {
 }
 
 
-/* =========================
-   INDEX – SECCIÓN DE BIENVENIDA
-   ========================= */
+/*index */
 #bienvenida {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Parccatalunya.jpg/1200px-Parccatalunya.jpg');
     background-size: cover;
@@ -372,7 +328,7 @@ footer {
     content: '';
     position: absolute;
     top:0; left:0; right:0; bottom:0;
-    background-color: rgba(27, 94, 32, 0.5); /* overlay verde */
+    background-color: rgba(27, 94, 32, 0.5);
     z-index: 1;
     border-radius: 12px;
 }
@@ -393,7 +349,7 @@ footer {
     margin: 10px 0;
 }
 
-/* Animación para cards de noticias */
+/* Animación noticias */
 .card {
     transition: transform 0.4s, box-shadow 0.4s;
 }
@@ -404,21 +360,19 @@ footer {
 }
 
 #bienvenida h2 {
-    color: white;  /* Texto en blanco */
-    font-size: 2.2em; /* opcional: más grande */
-    font-weight: bold; /* opcional: más destacado */
+    color: white;  
+    font-size: 2.2em; 
+    font-weight: bold; 
 }
 
 
-/* Scroll suave para anclas internas */
+/* Scroll */
 html {
     scroll-behavior: smooth;
 }
 
 
-/* =========================
-   SECCIÓN AYUNTAMIENTO - FOTO PRINCIPAL
-   ========================= */
+/* iniico foto*/
 #edificio-ayuntamiento {
     margin-top: 40px;
     text-align: center;
@@ -450,9 +404,7 @@ html {
     box-shadow: 0 10px 25px rgba(0,0,0,0.4);
 }
 
-/* =========================
-   INTRODUCCIÓN GALERÍA
-   ========================= */
+/*gelaria texto*/
 .intro-galeria {
     background-color: #f1f8f4;
     padding: 25px 30px;
@@ -475,9 +427,7 @@ html {
     line-height: 1.7;
 }
 
-/* =========================
-   ESTILO LISTA DE CONTACTO
-   ========================= */
+/*contacto*/
 .info-contacto {
     list-style: none;
     background-color: #c8e6c9;  /* verde suave */
