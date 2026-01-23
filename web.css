@@ -414,3 +414,89 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+
+
+/* =========================
+   SECCIÓN AYUNTAMIENTO - FOTO PRINCIPAL
+   ========================= */
+#edificio-ayuntamiento {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+#edificio-ayuntamiento h2 {
+    color: #1b5e20;
+    font-size: 1.9em;
+    margin-bottom: 20px;
+}
+
+.ayuntamiento-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ayuntamiento-container img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.ayuntamiento-container img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* =========================
+   INTRODUCCIÓN GALERÍA
+   ========================= */
+.intro-galeria {
+    background-color: #f1f8f4;
+    padding: 25px 30px;
+    margin: 50px auto 35px auto; /* margen superior aumentado a 50px */
+    border-left: 6px solid #1b5e20;
+    border-radius: 10px;
+    max-width: 1000px;
+}
+
+
+.intro-galeria h3 {
+    color: #1b5e20;
+    margin-bottom: 12px;
+    font-size: 1.4em;
+}
+
+.intro-galeria p {
+    font-size: 1.05em;
+    color: #444;
+    line-height: 1.7;
+}
+
+/* =========================
+   ESTILO LISTA DE CONTACTO
+   ========================= */
+.info-contacto {
+    list-style: none;
+    background-color: #c8e6c9;  /* verde suave */
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    margin-bottom: 25px;
+}
+
+.info-contacto li {
+    font-size: 1.05em;
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    border-left: 5px solid #1b5e20;
+    transition: background 0.3s, transform 0.3s;
+    cursor: default;
+}
+
+.info-contacto li:hover {
+    background-color: #a5d6a7;
+    transform: translateX(5px);
+}
